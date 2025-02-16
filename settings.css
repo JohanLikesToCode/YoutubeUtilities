@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.settings-container {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.content p,
+.features-list {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.features-list {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.features-list li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.features-list li strong {
+    color: #ffd700;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.info-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.license {
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+.license a {
+    color: #ffd700;
+    text-decoration: none;
+}
